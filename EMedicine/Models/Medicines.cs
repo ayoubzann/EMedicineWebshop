@@ -37,5 +37,13 @@ namespace EMedicine.Models
         [Column(TypeName = "nvarchar(250)")]
         public string ImageUrl { get; set; }
 
+
+        [Column(TypeName = "int")]
+        public int Status { get; set; }
+
+
+        [Column(TypeName = "nvarchar(250)")]
+        public string Type { get; set; }
+
     }
 }
